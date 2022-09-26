@@ -1,12 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="br-BR">
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width" />
-        <title>java</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Hora Exata: </title>
     </head>
     <body>
-        <script src="main.js"> </script>
+        <script>
+            let d = new Date();
+            document.body.innerHTML = "<h1>Hora Exata:  " + d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds()
+"</h1>"
         </script>
     </body>
 </html>
+
+
